@@ -1,11 +1,10 @@
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8100/eureka/
-server:
-  port: 8988
+# eureka:
+#   client:
+#     serviceUrl:
+#       defaultZone: http://localhost:8100/eureka/
+# server:
+#   port: 8988
 
----
 spring:
   profiles: application_1
   server:
