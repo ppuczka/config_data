@@ -9,7 +9,7 @@ server:
 spring:
   profiles: application_1
   server:
-  port: 8009   
+    port: 8009   
 
 cassandra:
   port: 9042
