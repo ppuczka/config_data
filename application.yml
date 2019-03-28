@@ -9,12 +9,11 @@ server:
 spring:
   profiles: application_1
   server:
-  port: 8009 
-  
-cassandra:
-  port: 9042
-  contact-points: localhost
-  keyspace-name: rest_workshop
+  port: 8009   
+  cassandra:
+    port: 9042
+    contact-points: localhost
+    keyspace-name: rest_workshop
 
 ---
     
